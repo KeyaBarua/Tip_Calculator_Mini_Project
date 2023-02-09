@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Tip Calculator</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css2?family=Signika:wght@600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+  <div class="container">
+    <div class="container-form">
+      <div class="title">Bill Total</div>
+      <div id="totalBillInput" class="totalContainer">
+        <span>$</span>
+        <input name="billTotal" type="text" id="billInputDiv" placeholder="100" onkeyup="calculateBill()">
+      </div>
+      <div class="title">Tip</div>
+      <div id="totalTipInput" class="totalContainer">
+        <span>%</span>
+        <input name="tipTotal" type="text" id="tipInputDiv" placeholder="10" onkeyup="calculateBill()">
+      </div>
+
+      <div class="container-bottom">
+        <div id="peopleContainer">
+          <div class="title">People</div>
+          <div id="buttonContainer">
+            <button class="buttonText" id="increasePeople" onclick="increasePeople()">+</button>
+            <span id="numberOfPeople" class="bottomText">1</span>
+            <button class="buttonText" id="decreasePeople" onclick="decreasePeople()">-</button>
+          </div>
+        </div>
+        <div id="totalPerContainer">
+          <div class="title">Total Per Person</div>
+          <div id="perPersonTotal" class="bottomText">$0.00</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
