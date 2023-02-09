@@ -1,0 +1,97 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  background-color: #A084DC;
+  position: relative;
+}
+
+.container{
+  background-color: #5D3891;
+  height: 630px;
+  width: 420px;
+  border-radius: 1rem;
+  position: absolute;
+  top: 3rem;
+  left: 35rem;
+  font-family: 'Signika', sans-serif;
+}
+
+.container-form{
+  margin-top: 1.5rem;
+  padding: 5rem 1.2rem 0 1.2rem;
+  color: white;
+  font-size: 1.2em;
+}
+
+.totalContainer{
+  background-color: #460C68;
+  padding: 0.2rem 0.5rem
+}
+
+input{
+  background: none;
+  border: none;
+  padding: none;
+  outline: none;
+  font-family: 'Signika', sans-serif;
+  font-size: 0.9em;
+  color: white;
+}
+
+.title{
+  margin: 0.6rem 0.4rem;
+  font-weight: bold;
+}
+
+#totalBillInput, #totalTipInput{
+  width: 23rem;
+  border-radius: 1.5rem;
+}
+
+.container-bottom{
+  display: flex;
+  padding-top: 1rem;
+  justify-content: space-between;
+}
+
+#perPersonTotal{
+  padding-left: 3.5rem
+}
+
+.bottomText{
+  font-size: 2.1rem;
+}
+
+.buttonText{
+  border-radius: 50%;
+  height: 1.5rem;
+  width: 1.5rem;
+  border: none;
+  background-color: #D09CFA;
+  color: white;
+  font-size: 1.2rem;
+}
+
+#totalPerContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: e;
+}
+
+#buttonContainer{
+  display: flex;
+  align-items: center;
+}
+
+#increasePeople{
+  margin-right: 0.5rem;
+}
+
+#decreasePeople{
+  margin-left: 0.5rem;
+}
